@@ -2,7 +2,10 @@
 
 A fast, mobile-first storefront template built for sellers who run their shop the way they run an Instagram page — clean grid, tap a product, message to order. No backend, no build tools, no framework. One HTML file, ready to host anywhere.
 
-**🔗 Live demo:** [Live Link]([[https://your-store-url.com](https://vishal-git-dot.github.io/frontend-templates/instagram-store-template/instagram-store-template.html)](https://vishal-git-dot.github.io/frontend-templates/instagram-store-template/instagram-store-template.html))
+<p align="center">
+  <a href="https://vishal-git-dot.github.io/frontend-templates/instagram-store-template/instagram-store-template.html"><strong>🔗 View Live Demo</strong></a>
+</p>
+
 ---
 
 ## Why this template
