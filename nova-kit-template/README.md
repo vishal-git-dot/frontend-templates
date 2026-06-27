@@ -37,6 +37,19 @@
 
 ──────────────────────────────────────────
 
+### ▌ SOURCE CODE LAUNCH
+
+```
+[ ⏳ ]  Full source code drops  →  JULY 27, 2026
+```
+
+**Public source release is scheduled for `2026-07-27`** — exactly one month
+from today. Until then, this repo ships the live preview, the README, and
+the design system reference. Star / watch the repo to get notified the
+moment the source lands.
+
+──────────────────────────────────────────
+
 </div>
 
 ## ▌ WHAT IS THIS
@@ -291,4 +304,3 @@ See `LICENSE` for full terms.
 `v1.0` · `2026`
 
 </div>
-
