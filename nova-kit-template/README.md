@@ -10,7 +10,7 @@
 
 <a href="https://your-demo-url.com">
 <picture>
-<img alt="NOVA KIT — a neobrutalist link-in-bio & creator drop template" width="880" src="./public/banner.svg" />
+<img alt="NOVA KIT — a neobrutalist link-in-bio & creator drop template" width="880" src="assets/banner.svg" />
 </picture>
 </a>
 
