@@ -8,7 +8,7 @@
   ─────────────────────────────────────────────────────────────
 -->
 
-<a href="https://your-demo-url.com">
+<a href="https://nova-kit-template.netlify.app/">
 <picture>
 <img alt="NOVA KIT — a neobrutalist link-in-bio & creator drop template" width="880" src="assets/banner.svg" />
 </picture>
@@ -31,9 +31,7 @@
 
 ### ▌ LIVE DEMO
 
-**▸ [ View live demo ](https://your-demo-url.com)** &nbsp;·&nbsp; **▸ [ Admin panel ](https://your-demo-url.com/admin)**
-
-<sub>Replace the URLs above with your deployment, e.g. <code>https://nova-kit.vercel.app</code></sub>
+**▸ [ View live demo ](https://nova-kit-template.netlify.app/)** &nbsp;·&nbsp; **▸ [ Admin panel ](https://nova-kit-template.netlify.app//admin)**
 
 ──────────────────────────────────────────
 
