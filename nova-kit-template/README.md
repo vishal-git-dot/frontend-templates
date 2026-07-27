@@ -37,12 +37,16 @@
 
 ### ▌ SOURCE CODE
 
-🚀 **Source Code:** https://github.com/vishal-git-dot/nova-kit-template
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Source_Code-181717?style=for-the-badge&logo=github)](https://github.com/vishal-git-dot/nova-kit-template)
+[![GitHub Stars](https://img.shields.io/github/stars/vishal-git-dot/nova-kit-template?style=for-the-badge&logo=github)](https://github.com/vishal-git-dot/nova-kit-template/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/vishal-git-dot/nova-kit-template?style=for-the-badge&logo=github)](https://github.com/vishal-git-dot/nova-kit-template/network/members)
+[![Repository](https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github)](https://github.com/vishal-git-dot/nova-kit-template)
 
-If this project helps you, please consider leaving a ⭐ on the repository.
+The complete source code is now available.
+
+⭐ If you find this project useful, consider starring the repository and watching it for future updates.
 
 ──────────────────────────────────────────
-
 
 </div>
 
