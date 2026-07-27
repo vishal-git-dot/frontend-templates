@@ -35,18 +35,14 @@
 
 ──────────────────────────────────────────
 
-### ▌ SOURCE CODE LAUNCH
+### ▌ SOURCE CODE
 
-```
-[ ⏳ ]  Full source code drops  →  JULY 27, 2026
-```
+🚀 **Source Code:** https://github.com/vishal-git-dot/nova-kit-template
 
-**Public source release is scheduled for `2026-07-27`** — exactly one month
-from today. Until then, this repo ships the live preview, the README, and
-the design system reference. Star / watch the repo to get notified the
-moment the source lands.
+If this project helps you, please consider leaving a ⭐ on the repository.
 
 ──────────────────────────────────────────
+
 
 </div>
 
