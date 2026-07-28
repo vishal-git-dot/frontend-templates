@@ -18,19 +18,6 @@ _No install. No signup. You're in the stadium in one click._
 
 ──────────────────────────────────────────
 
-### ▌ SOURCE CODE LAUNCH
-
-```
-[ ⏳ ]  Full source code drops  →  JULY 30, 2026
-```
-
-**Public source release is scheduled for `2026-07-30`** — exactly one month
-from today. Until then, this repo ships the live preview, the README, and
-the design system reference. Star / watch the repo to get notified the
-moment the source lands.
-
-──────────────────────────────────────────
-
 </div>
 
 ---
