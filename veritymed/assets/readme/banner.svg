@@ -1,0 +1,139 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0F2D42"/>
+    <stop offset="55%" stop-color="#0A1F2E"/>
+    <stop offset="100%" stop-color="#0B3A3A"/>
+  </linearGradient>
+  <linearGradient id="markGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4FC5C0"/>
+    <stop offset="100%" stop-color="#0B6B6A"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#17ADA8" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#17ADA8" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity="0.07"/>
+  </pattern>
+  <style>
+    <![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
+    .title{ font-family:'Space Grotesk','Segoe UI',Arial,sans-serif; font-weight:700; fill:#ffffff; }
+    .tag{ font-family:'IBM Plex Mono','Courier New',monospace; fill:#4FC5C0; letter-spacing:2.5px; }
+    .sub{ font-family:'Inter','Segoe UI',Arial,sans-serif; fill:#C3D2DA; }
+    .desc{ font-family:'IBM Plex Mono','Courier New',monospace; fill:#7C93A0; }
+    .badge-text{ font-family:'Inter','Segoe UI',Arial,sans-serif; fill:#B7C4CC; font-weight:600; }
+    .route-label{ font-family:'IBM Plex Mono','Courier New',monospace; fill:#9FB4BE; }
+    .route-label.on{ fill:#ffffff; }
+
+    @keyframes pulseGlow{ 0%,100%{ opacity:.55; transform:scale(1); } 50%{ opacity:.9; transform:scale(1.12); } }
+    .glow-anim{ animation:pulseGlow 3.2s ease-in-out infinite; transform-origin:92px 140px; }
+
+    @keyframes dashMove{ to{ stroke-dashoffset:-60; } }
+    .route-path{ stroke-dasharray:7 7; animation:dashMove 1.6s linear infinite; }
+
+    @keyframes dotPulse{ 0%,100%{ opacity:.35; } 50%{ opacity:1; } }
+    .step-dot-1{ animation:dotPulse 3s ease-in-out infinite; }
+    .step-dot-2{ animation:dotPulse 3s ease-in-out infinite .5s; }
+    .step-dot-3{ animation:dotPulse 3s ease-in-out infinite 1s; }
+
+    @keyframes labelFade{ 0%,20%{ opacity:.4; } 33%,100%{ opacity:1; } }
+    .lbl-1{ animation:labelFade 3s ease-in-out infinite; }
+    .lbl-2{ animation:labelFade 3s ease-in-out infinite .5s; }
+    .lbl-3{ animation:labelFade 3s ease-in-out infinite 1s; }
+
+    @keyframes floatSlow{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-7px); } }
+    .float-a{ animation:floatSlow 5s ease-in-out infinite; }
+    .float-b{ animation:floatSlow 6s ease-in-out infinite .8s; }
+    .float-c{ animation:floatSlow 4.5s ease-in-out infinite 1.6s; }
+
+    @keyframes fadeInUpBanner{ from{ opacity:0; transform:translateY(10px); } to{ opacity:1; transform:translateY(0); } }
+    .fade-1{ animation:fadeInUpBanner .7s ease both .05s; }
+    .fade-2{ animation:fadeInUpBanner .7s ease both .15s; }
+    .fade-3{ animation:fadeInUpBanner .7s ease both .25s; }
+    .fade-4{ animation:fadeInUpBanner .7s ease both .35s; }
+
+    @keyframes shimmer{ 0%{ opacity:.5; } 50%{ opacity:1; } 100%{ opacity:.5; } }
+    .seal-check{ animation:shimmer 3.2s ease-in-out infinite; }
+    ]]>
+  </style>
+</defs>
+
+<rect width="1200" height="280" fill="url(#bgGrad)"/>
+<rect width="1200" height="280" fill="url(#dots)"/>
+
+<!-- decorative floating icons (texture) -->
+<g opacity="0.16" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g class="float-a" transform="translate(560,36)"><path d="M0 8c2-3 6-5 9-5s7 2 9 5c-2 4-6 8-9 8s-7-4-9-8Z"/></g>
+  <g class="float-b" transform="translate(640,190)"><path d="M9 2h6"/><path d="M10 2v7l-3.5 9a2 2 0 0 0 1.9 2.6h7.2a2 2 0 0 0 1.9-2.6L14 9V2" transform="scale(0.8)"/></g>
+  <g class="float-c" transform="translate(500,200)"><circle cx="9" cy="17" r="4"/><path d="M9 17V6h2"/><path d="M9 12h6l3 5"/></g>
+</g>
+
+<!-- Logo mark + glow -->
+<circle class="glow-anim" cx="92" cy="140" r="46" fill="url(#glow)"/>
+<g class="fade-1">
+  <rect x="60" y="108" width="64" height="64" rx="18" fill="url(#markGrad)"/>
+  <rect x="60" y="108" width="64" height="64" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <g class="seal-check" transform="translate(76,124)" stroke="#ffffff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 2 6 5.4v8c0 6.7 4.4 10.7 10 12 5.6-1.3 10-5.3 10-12v-8Z"/>
+    <path d="M11.5 16 14.5 19 20.5 12"/>
+  </g>
+</g>
+
+<!-- Title block -->
+<text x="140" y="134" class="title fade-1" font-size="46">VerityMed</text>
+<text x="141" y="156" class="tag fade-2" font-size="12">VERIFIED MEDICAL SUPPLY NETWORK</text>
+<text x="61" y="205" class="sub fade-3" font-size="17">A verified B2B distribution platform for licensed clinics —</text>
+<text x="61" y="228" class="sub fade-3" font-size="17">full frontend prototype, 31 pages, zero backend.</text>
+
+<!-- bottom badge row -->
+<g class="fade-4" font-size="11.5">
+  <rect x="61" y="240" width="98" height="24" rx="12" fill="#ffffff" fill-opacity="0.08"/>
+  <text x="76" y="256" class="badge-text">Responsive</text>
+  <rect x="167" y="240" width="128" height="24" rx="12" fill="#ffffff" fill-opacity="0.08"/>
+  <text x="182" y="256" class="badge-text">Animated UI</text>
+  <rect x="303" y="240" width="150" height="24" rx="12" fill="#ffffff" fill-opacity="0.08"/>
+  <text x="318" y="256" class="badge-text">Vanilla JS · No Deps</text>
+</g>
+
+<!-- Divider -->
+<line x1="700" y1="46" x2="700" y2="234" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+
+<!-- Shipment route visual -->
+<g class="fade-4">
+  <text x="760" y="60" class="tag" font-size="11">LIVE SHIPMENT PREVIEW</text>
+
+  <circle cx="778" cy="140" r="22" fill="#ffffff" fill-opacity="0.08"/>
+  <g transform="translate(766,128)" stroke="#4FC5C0" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 8 12 3 3 8v8l9 5 9-5Z"/>
+    <path d="M3 8 12 13 21 8"/>
+    <path d="M12 13v8.5"/>
+  </g>
+
+  <circle cx="1122" cy="140" r="22" fill="#ffffff" fill-opacity="0.08"/>
+  <g transform="translate(1110,128)" stroke="#E8A33D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 3 4.5 6v6c0 5 3.3 8 7.5 9 4.2-1 7.5-4 7.5-9V6Z"/>
+    <path d="M9 12l2 2 4-4"/>
+  </g>
+
+  <path d="M800 140 H1100" stroke="#2C4356" stroke-width="2"/>
+  <path class="route-path" d="M800 140 H1100" stroke="#17ADA8" stroke-width="2"/>
+  <circle r="5" fill="#ffffff">
+    <animateMotion dur="3.6s" repeatCount="indefinite" path="M800 140 H1100"/>
+  </circle>
+
+  <g font-size="11">
+    <circle class="step-dot-1" cx="800" cy="180" r="4" fill="#4FC5C0"/>
+    <text x="812" y="184" class="route-label lbl-1 on">Confirmed</text>
+
+    <circle class="step-dot-2" cx="912" cy="180" r="4" fill="#4FC5C0"/>
+    <text x="924" y="184" class="route-label lbl-2 on">Shipped</text>
+
+    <circle class="step-dot-3" cx="1012" cy="180" r="4" fill="#E8A33D"/>
+    <text x="1024" y="184" class="route-label lbl-3 on">Out for delivery</text>
+  </g>
+
+  <text x="800" y="215" class="desc" font-size="11">ORD-58144 · Denver DC → Harbor Family Clinic</text>
+</g>
+</svg>
